@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/bottomBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <org.chromatex.lab.ui.FabricWindowOverlay
+        android:id="@+id/overlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/previewView"
+        app:layout_constraintEnd_toEndOf="@id/previewView"
+        app:layout_constraintStart_toStartOf="@id/previewView"
+        app:layout_constraintTop_toTopOf="@id/previewView" />
+
+    <TextView
+        android:id="@+id/guideText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/guide_bad_bg"
+        android:gravity="center"
+        android:minHeight="56dp"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="14dp"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/metaText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#990F172A"
+        android:padding="6dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideText" />
+
+    <TextView
+        android:id="@+id/sessionBanner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#CC0F766E"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/camControls"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/camControls"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#E00F172A"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@id/bottomBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="8dp">
+
+            <TextView
+                android:id="@+id/txtCamCaps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAeMode"
+                style="@style/Widget.Chromatex.Button.Outline"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:minWidth="0dp"
+                android:text="AE Auto"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                app:strokeColor="@color/colorAccent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnIso"
+                style="@style/Widget.Chromatex.Button.Outline"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="6dp"
+                android:enabled="false"
+                android:minWidth="0dp"
+                android:text="ISO"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                app:strokeColor="@color/colorAccent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnExposure"
+                style="@style/Widget.Chromatex.Button.Outline"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="6dp"
+                android:enabled="false"
+                android:minWidth="0dp"
+                android:text="Exp"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                app:strokeColor="@color/colorAccent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAeComp"
+                style="@style/Widget.Chromatex.Button.Outline"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="6dp"
+                android:enabled="false"
+                android:minWidth="0dp"
+                android:text="EV"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                app:strokeColor="@color/colorAccent" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#F00F172A"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancel"
+            style="@style/Widget.Chromatex.Button.Outline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/capture_cancel"
+            android:textColor="@color/warn"
+            app:strokeColor="@color/warn" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTorch"
+            style="@style/Widget.Chromatex.Button.Outline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="@string/torch_on"
+            android:textColor="@color/colorAccent"
+            app:strokeColor="@color/colorAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnShot"
+            style="@style/Widget.Chromatex.Button.Accent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="@string/capture_shot" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

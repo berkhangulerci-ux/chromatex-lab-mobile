@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C219D09C0B12AA4056BF86 /* CaptureCoach.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBA1E8FA9F071DA15A6DAC3 /* CaptureCoach.swift */; };
+		08FBD148243C4AE97A41D6DC /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122663AB0F462BCD4CDA4E4F /* StatsView.swift */; };
+		0A3B004627EF8D9DC1AA6A2C /* ExposurePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB30FC5A30F57BDC069FA89 /* ExposurePolicy.swift */; };
+		1A2DD8284AF643578169E77D /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790CB63FFB56392ED7AA8AD /* CameraController.swift */; };
+		1D69CE71FBA5DA94F75141A0 /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F265F1438B41FD599D38 /* CaptureView.swift */; };
+		3264F7E175DFCDF4CEE34075 /* FramingGuideAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B199FBFF8BA7FE0098B5F4E /* FramingGuideAnalyzer.swift */; };
+		331FC26C26B2C5019E1B058C /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16EE81126865AFD6DFC7EB2 /* SessionView.swift */; };
+		46768BF7F00BD2E51CD166F1 /* CoachKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D9626E2CE6969537DA3AC /* CoachKey.swift */; };
+		47144B88AFAB8754A8E51258 /* SceneRecordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF0F5A7942064DF88518086 /* SceneRecordStore.swift */; };
+		4964CF353964FE15DBD20EE8 /* DeviceId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE363784F6B5D82691E5C6E /* DeviceId.swift */; };
+		51241A328FFE163B26DB683A /* SessionPrefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F316A9639379ACB974C3DD /* SessionPrefs.swift */; };
+		6492DE99E18A229D9AB0BA41 /* FabricSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A266E1454A4F3B0C9F8F02 /* FabricSession.swift */; };
+		699AC8A8E2AEDB80841E2A3E /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AC52A74190F317446BCC9 /* GalleryView.swift */; };
+		7D8761A4195C9DE391DB9A55 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF436A4BD714FE30E9309D8 /* CameraPreviewView.swift */; };
+		994EA84006BBC3FC02AC0322 /* ChromatexLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C6CE9E7A8C8C5E3FFFB40A /* ChromatexLabApp.swift */; };
+		9F3C58B40C1A5EBF0AD102AF /* PendingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C74219A840DBA4327C73A /* PendingListView.swift */; };
+		A1B2C3D4E5F60718293A4B5C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F60718293A4B5C6D /* SettingsView.swift */; };
+		A6070B9CF28E71610AA267AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DAA59D477A91E75E0468AF /* Assets.xcassets */; };
+		C4A1E0B97F2D4A6E8B1C3D50 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D5B2F1C08E3A5B7F9C2D4E61 /* PrivacyInfo.xcprivacy */; };
+		B19DF137F089A221AEA630CC /* UpdateClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9778BBC398DD2C6DBCB59062 /* UpdateClient.swift */; };
+		CD2C5D95EC9F4E0EF2BB9246 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5DC3A1800857E59682B266 /* Validation.swift */; };
+		CE79D75DED26905318179089 /* UploadClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C425F7C2F5E658DC0003F2 /* UploadClient.swift */; };
+		CFFBDE00FAFBFAD0C411B834 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED572E6F613961EED65770AA /* Catalog.swift */; };
+		F8D91AF2A7F0D164B2F173B2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EED044031E11BC27EDD41F /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0790CB63FFB56392ED7AA8AD /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		0CB30FC5A30F57BDC069FA89 /* ExposurePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposurePolicy.swift; sourceTree = "<group>"; };
+		122663AB0F462BCD4CDA4E4F /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		221B1A5C00F70DCA056FC30A /* ChromatexLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromatexLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C425F7C2F5E658DC0003F2 /* UploadClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadClient.swift; sourceTree = "<group>"; };
+		3A5DC3A1800857E59682B266 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		3DF436A4BD714FE30E9309D8 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		4F0AC52A74190F317446BCC9 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		59DAA59D477A91E75E0468AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A266E1454A4F3B0C9F8F02 /* FabricSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricSession.swift; sourceTree = "<group>"; };
+		74F316A9639379ACB974C3DD /* SessionPrefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPrefs.swift; sourceTree = "<group>"; };
+		770C5B730A8FBE3C009C5372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EED044031E11BC27EDD41F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9778BBC398DD2C6DBCB59062 /* UpdateClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateClient.swift; sourceTree = "<group>"; };
+		9B199FBFF8BA7FE0098B5F4E /* FramingGuideAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramingGuideAnalyzer.swift; sourceTree = "<group>"; };
+		9BE363784F6B5D82691E5C6E /* DeviceId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceId.swift; sourceTree = "<group>"; };
+		9FB7F265F1438B41FD599D38 /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		B2C3D4E5F60718293A4B5C6D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CF9C74219A840DBA4327C73A /* PendingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingListView.swift; sourceTree = "<group>"; };
+		D16EE81126865AFD6DFC7EB2 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		DCF0F5A7942064DF88518086 /* SceneRecordStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneRecordStore.swift; sourceTree = "<group>"; };
+		D5B2F1C08E3A5B7F9C2D4E61 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DDBA1E8FA9F071DA15A6DAC3 /* CaptureCoach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureCoach.swift; sourceTree = "<group>"; };
+		E27D9626E2CE6969537DA3AC /* CoachKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachKey.swift; sourceTree = "<group>"; };
+		E7C6CE9E7A8C8C5E3FFFB40A /* ChromatexLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromatexLabApp.swift; sourceTree = "<group>"; };
+		ED572E6F613961EED65770AA /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		804DB52E2955449D2F091C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195F906251E47DF27CDA4D98 /* Hub */ = {
+			isa = PBXGroup;
+			children = (
+				9778BBC398DD2C6DBCB59062 /* UpdateClient.swift */,
+				37C425F7C2F5E658DC0003F2 /* UploadClient.swift */,
+			);
+			path = Hub;
+			sourceTree = "<group>";
+		};
+		38DF21AEF4612506D6BE5CBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7F265F1438B41FD599D38 /* CaptureView.swift */,
+				4F0AC52A74190F317446BCC9 /* GalleryView.swift */,
+				CF9C74219A840DBA4327C73A /* PendingListView.swift */,
+				D16EE81126865AFD6DFC7EB2 /* SessionView.swift */,
+				B2C3D4E5F60718293A4B5C6D /* SettingsView.swift */,
+				122663AB0F462BCD4CDA4E4F /* StatsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46B8693A1D1C75AB9611EEF8 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				DDBA1E8FA9F071DA15A6DAC3 /* CaptureCoach.swift */,
+				E27D9626E2CE6969537DA3AC /* CoachKey.swift */,
+				0CB30FC5A30F57BDC069FA89 /* ExposurePolicy.swift */,
+				9B199FBFF8BA7FE0098B5F4E /* FramingGuideAnalyzer.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		518DA81DB9B99529C0C0AEBE = {
+			isa = PBXGroup;
+			children = (
+				82CF2A43A7100F086D7FCFDD /* ChromatexLab */,
+				547D009064F7C3F13BEF3460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		547D009064F7C3F13BEF3460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				221B1A5C00F70DCA056FC30A /* ChromatexLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82CF2A43A7100F086D7FCFDD /* ChromatexLab */ = {
+			isa = PBXGroup;
+			children = (
+				E7C6CE9E7A8C8C5E3FFFB40A /* ChromatexLabApp.swift */,
+				A1C86A29E589D48EC70B6A32 /* Models */,
+				84CF25C76D64DAA0B536E4A0 /* Store */,
+				195F906251E47DF27CDA4D98 /* Hub */,
+				E50F13E9B62B6AD88DB9F12B /* Camera */,
+				46B8693A1D1C75AB9611EEF8 /* Capture */,
+				38DF21AEF4612506D6BE5CBE /* Views */,
+				59DAA59D477A91E75E0468AF /* Assets.xcassets */,
+				770C5B730A8FBE3C009C5372 /* Info.plist */,
+				D5B2F1C08E3A5B7F9C2D4E61 /* PrivacyInfo.xcprivacy */,
+			);
+			path = ChromatexLab;
+			sourceTree = "<group>";
+		};
+		84CF25C76D64DAA0B536E4A0 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				9BE363784F6B5D82691E5C6E /* DeviceId.swift */,
+				DCF0F5A7942064DF88518086 /* SceneRecordStore.swift */,
+				74F316A9639379ACB974C3DD /* SessionPrefs.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		A1C86A29E589D48EC70B6A32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED572E6F613961EED65770AA /* Catalog.swift */,
+				67A266E1454A4F3B0C9F8F02 /* FabricSession.swift */,
+				81EED044031E11BC27EDD41F /* Theme.swift */,
+				3A5DC3A1800857E59682B266 /* Validation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E50F13E9B62B6AD88DB9F12B /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				0790CB63FFB56392ED7AA8AD /* CameraController.swift */,
+				3DF436A4BD714FE30E9309D8 /* CameraPreviewView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC244A89A51D19120DCBA81F /* ChromatexLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DA8F99CEAD30FAF9D20FF29 /* Build configuration list for PBXNativeTarget "ChromatexLab" */;
+			buildPhases = (
+				D8E2B34C6803A5DAEDA2CB7E /* Sources */,
+				804DB52E2955449D2F091C7E /* Frameworks */,
+				00513FA0CE487262D0410603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromatexLab;
+			productName = ChromatexLab;
+			productReference = 221B1A5C00F70DCA056FC30A /* ChromatexLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F058E703ABF1C0EE1F2D4BDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					AC244A89A51D19120DCBA81F = {
+						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8CB014CF6CC51EFAF0098F2A /* Build configuration list for PBXProject "ChromatexLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				tr,
+				en,
+				Base,
+			);
+			mainGroup = 518DA81DB9B99529C0C0AEBE;
+			productRefGroup = 547D009064F7C3F13BEF3460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC244A89A51D19120DCBA81F /* ChromatexLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00513FA0CE487262D0410603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6070B9CF28E71610AA267AE /* Assets.xcassets in Resources */,
+				C4A1E0B97F2D4A6E8B1C3D50 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8E2B34C6803A5DAEDA2CB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2DD8284AF643578169E77D /* CameraController.swift in Sources */,
+				7D8761A4195C9DE391DB9A55 /* CameraPreviewView.swift in Sources */,
+				05C219D09C0B12AA4056BF86 /* CaptureCoach.swift in Sources */,
+				46768BF7F00BD2E51CD166F1 /* CoachKey.swift in Sources */,
+				0A3B004627EF8D9DC1AA6A2C /* ExposurePolicy.swift in Sources */,
+				3264F7E175DFCDF4CEE34075 /* FramingGuideAnalyzer.swift in Sources */,
+				B19DF137F089A221AEA630CC /* UpdateClient.swift in Sources */,
+				CE79D75DED26905318179089 /* UploadClient.swift in Sources */,
+				CFFBDE00FAFBFAD0C411B834 /* Catalog.swift in Sources */,
+				6492DE99E18A229D9AB0BA41 /* FabricSession.swift in Sources */,
+				F8D91AF2A7F0D164B2F173B2 /* Theme.swift in Sources */,
+				CD2C5D95EC9F4E0EF2BB9246 /* Validation.swift in Sources */,
+				4964CF353964FE15DBD20EE8 /* DeviceId.swift in Sources */,
+				47144B88AFAB8754A8E51258 /* SceneRecordStore.swift in Sources */,
+				51241A328FFE163B26DB683A /* SessionPrefs.swift in Sources */,
+				994EA84006BBC3FC02AC0322 /* ChromatexLabApp.swift in Sources */,
+				1D69CE71FBA5DA94F75141A0 /* CaptureView.swift in Sources */,
+				699AC8A8E2AEDB80841E2A3E /* GalleryView.swift in Sources */,
+				9F3C58B40C1A5EBF0AD102AF /* PendingListView.swift in Sources */,
+				331FC26C26B2C5019E1B058C /* SessionView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B5C /* SettingsView.swift in Sources */,
+				08FBD148243C4AE97A41D6DC /* StatsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37CDDD61FED8A39EEA88C0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEVELOPMENT_TEAM = G83S7VGQ8W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF9B2668011E455D3D7F21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ChromatexLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.11;
+				PRODUCT_BUNDLE_IDENTIFIER = org.chromatex.lab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BA0348D54C7CF6D7F19BE835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ChromatexLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.11;
+				PRODUCT_BUNDLE_IDENTIFIER = org.chromatex.lab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DCFB30EAE59D6917CE906371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEVELOPMENT_TEAM = G83S7VGQ8W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DA8F99CEAD30FAF9D20FF29 /* Build configuration list for PBXNativeTarget "ChromatexLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF9B2668011E455D3D7F21A /* Debug */,
+				BA0348D54C7CF6D7F19BE835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB014CF6CC51EFAF0098F2A /* Build configuration list for PBXProject "ChromatexLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFB30EAE59D6917CE906371 /* Debug */,
+				37CDDD61FED8A39EEA88C0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F058E703ABF1C0EE1F2D4BDC /* Project object */;
+}

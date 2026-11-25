@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:clipToPadding="false"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_header_banner"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numune çekimi"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="100×100 mm delik merkeze (max piksel). Renk halkası ikincil; tam A4 zorunlu değil."
+                android:textColor="@color/colorPrimarySoft"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/captureStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_status_ok"
+            android:padding="12dp"
+            android:textColor="@color/ok"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_section_card"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <TextView
+                style="@style/Text.Chromatex.Section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zorunlu alanlar" />
+
+            <TextView
+                style="@style/Text.Chromatex.Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Kumaş durumu *" />
+
+            <Spinner
+                android:id="@+id/spinnerFabricState"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/bg_elevated"
+                android:paddingHorizontal="8dp" />
+
+            <TextView
+                style="@style/Text.Chromatex.Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Etiket *" />
+
+            <Spinner
+                android:id="@+id/spinnerLabel"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/bg_elevated"
+                android:paddingHorizontal="8dp" />
+
+            <TextView
+                style="@style/Text.Chromatex.Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Kumaş cinsi" />
+
+            <Spinner
+                android:id="@+id/spinnerFabricType"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/bg_elevated"
+                android:paddingHorizontal="8dp" />
+
+            <TextView
+                style="@style/Text.Chromatex.Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Kumaş rengi" />
+
+            <Spinner
+                android:id="@+id/spinnerFabricColor"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/bg_elevated"
+                android:paddingHorizontal="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_section_card"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <TextView
+                style="@style/Text.Chromatex.Section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fabric kodları" />
+
+            <TextView
+                style="@style/Text.Chromatex.Hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Opsiyonel — varsa doldurun" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/colorPrimary">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputOrguKodu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Örgü kodu"
+                    android:textColor="@color/text_primary" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/colorPrimary">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputSipNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Sipariş No"
+                    android:textColor="@color/text_primary" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/colorPrimary">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputIsemri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="İş emri No"
+                    android:textColor="@color/text_primary" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/colorPrimary">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputMakina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Makina No"
+                    android:textColor="@color/text_primary" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/colorPrimary">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputParti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Parti No"
+                    android:textColor="@color/text_primary" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCapture"
+            style="@style/Widget.Chromatex.Button.Accent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Kamerayı aç — delik ile çek" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnUpload"
+            style="@style/Widget.Chromatex.Button.Outline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="24dp"
+            android:text="Bekleyenleri WiFi ile gönder" />
+    </LinearLayout>
+</ScrollView>

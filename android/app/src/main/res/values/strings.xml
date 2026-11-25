@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChromaTex</string>
+    <string name="home_title">ChromaTex Lab</string>
+    <string name="home_subtitle">100×100 mm delik merkezde — max piksel + ışık/hiza</string>
+    <string name="btn_capture">Kamerayı aç — delik ile çek</string>
+    <string name="batch_hint">A4 / spectro batch id</string>
+    <string name="operator_hint">Operatör adı</string>
+    <string name="torch_on">Torch AÇIK</string>
+    <string name="torch_off">Torch KAPALI</string>
+    <string name="capture_shot">Manuel çek</string>
+    <string name="capture_cancel">Vazgeç</string>
+    <string name="ae_auto">AUTO_POLICY</string>
+    <string name="ae_manual">AE Manuel</string>
+    <string name="guide_fabric">Kumaş 100×100 mm deliği doldursun — ışık uygun olmalı</string>
+    <string name="permission_required">Kamera izni gerekli</string>
+    <string name="saved">Kayıt tamam</string>
+</resources>
