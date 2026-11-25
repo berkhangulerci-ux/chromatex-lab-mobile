@@ -28,7 +28,7 @@
     <color name="overlay_fill">#33FFFFFF</color>
     <color name="guide_ok_bg">#E6059669</color>
     <color name="guide_bad_bg">#E5DC2626</color>
-    <color name="ic_launcher_bg">#FF0F766E</color>
+    <color name="ic_launcher_bg">#FF0A2826</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
