@@ -14,14 +14,14 @@ val keystoreProps = Properties().apply {
 
 android {
     namespace = "org.chromatex.lab"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "org.chromatex.lab"
         minSdk = 26
-        targetSdk = 35
-        versionCode = 78
-        versionName = "0.5.26"
+        targetSdk = 36
+        versionCode = 79
+        versionName = "0.5.27"
     }
 
     signingConfigs {
