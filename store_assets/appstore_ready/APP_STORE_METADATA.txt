@@ -1,0 +1,56 @@
+=== APPLE APP STORE CONNECT — CHROMATEX LAB (v0.2.11 / Build 14) ===
+
+1. UYGULAMA BİLGİLERİ (Birincil Dil: Türkçe)
+----------------------------------------------------------------
+Ad (Name, max 30):
+ChromaTex Lab
+
+Alt Başlık (Subtitle, max 30):
+Optik Kumaş Numune Çekimi
+
+Kategori:
+Birincil: Yardımcı Programlar (Utilities) veya Üretkenlik (Productivity)
+
+2. SÜRÜM BİLGİLERİ (Türkçe)
+----------------------------------------------------------------
+Tanıtım Metni (Promotional Text, max 170):
+Tekstil üretim ve kalite kontrol süreçlerinde 100x100 mm optik vizörle standart kumaş numunesi çekin, çevrimdışı arşivleyin veya kendi DataHub sunucunuza aktarın.
+
+Açıklama (Description):
+ChromaTex Lab, tekstil üretim ve kalite kontrol süreçlerinde kumaş numunelerini 100x100 mm referans penceresiyle standart pozlama, keskinlik ve geometri kriterlerine göre fotoğraflamak için geliştirilmiş ücretsiz bir bilimsel/endüstriyel mobil istemcidir.
+
+Özellikler:
+• 100x100 mm optik hedef halkası ile otomatik hizalama, eğim (skew) ve netlik kontrolü
+• Pozlama ve ışık yoğunluğu ayarı (manuel ISO/pozlama veya otomatik politika + kademeli fener)
+• Kumaş durumu, cinsi, rengi ve opsiyonel parti/sipariş meta etiketleme
+• Sunucu gerektirmeden çevrimdışı yerel çekim, Galeri önizleme ve iOS Paylaşım (Share) ile JPEG dışa aktarma
+• İsteğe bağlı Kendi Sunucunu Getir (BYOS) mimarisi ile kurum içi ChromaTex DataHub senkronizasyonu
+• Reklam, üçüncü taraf izleme (tracking) veya zorunlu bulut hesabı içermez.
+
+Anahtar Kelimeler (Keywords, max 100):
+tekstil,kumaş,kalite kontrol,renk kalibrasyon,numune,kamera,optik,spektro,örgü,datahub
+
+Destek URL'si (Support URL):
+https://berkhangulerci-ux.github.io/chromatex-lab-mobile/
+
+Gizlilik Politikası URL'si (Privacy Policy URL):
+https://berkhangulerci-ux.github.io/chromatex-lab-mobile/privacy-policy.html
+
+3. APP REVIEW NOTLARI (İngilizce — Apple İnceleme Ekibi İçin)
+----------------------------------------------------------------
+ChromaTex Lab is a standalone scientific/industrial textile sample capture tool with optional Bring Your Own Server (BYOS) sync to a user's self-hosted ChromaTex DataHub.
+
+How to test without any server or account:
+1. Open the app — no login or account is required.
+2. On the "Çekim" tab, tap "Kamerayı aç" → confirm metadata → tap the white shutter button at the bottom to capture a manual sample photo (no physical calibration card or hub server is required for manual capture).
+3. Open the "Galeri" tab, tap the captured photo to view it, and tap the Share icon in the top-right toolbar to export/share the JPEG locally.
+4. Open "İstatistik" to view storage stats and delete local captures, or "Ayarlar" to view the in-app Privacy Policy and optional BYOS DataHub settings.
+
+4. EKRAN GÖRÜNTÜSÜ KLASÖRLERİ
+----------------------------------------------------------------
+- iPhone 6.9" Ekran (Zorunlu — 1320 x 2868 px, alfa kanalsız RGB):
+  iphone-6.9-1320x2868/ios-1-cekim.png ... ios-4-ayarlar.png
+- iPhone 6.5" Ekran (Opsiyonel yedek — 1242 x 2688 px, alfa kanalsız RGB):
+  iphone-6.5-1242x2688/ios-1-cekim.png ... ios-4-ayarlar.png
+- Uygulama İkonu (1024 x 1024 px, alfa kanalsız RGB — Xcode Archive içine de gömülü):
+  app-store-icon-1024.png
