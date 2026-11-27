@@ -1,6 +1,16 @@
-# Mobile Capture
+<p align="center">
+  <img src="android/store_assets/play-feature-graphic-1024x500.png" alt="ChromaTex Lab Mobile" width="820" />
+</p>
 
-Phone/tablet clients that write Dataset Hub scene records (master JPEG + `record.json`).
+# ChromaTex Lab — Mobile Capture
+
+Phone/tablet clients that write Dataset Hub scene records (master JPEG + `record.json`) and work standalone offline with local Gallery & JPEG export.
+
+| iOS (`SwiftUI` — `v0.2.11`) | Android (`Kotlin / CameraX` — `v0.5.27`) |
+| :---: | :---: |
+| <img src="ios/store_assets/screenshots/iphone-6.5-1242x2688/ios-2-kamera.png" alt="iOS Capture" width="220" /> | <img src="android/store_assets/screenshots/phone/phone-2-camera.png" alt="Android Capture" width="220" /> |
+
+**Ecosystem:** Part of [**ChromaTex Lab**](https://github.com/berkhangulerci-ux/chromatex-lab) (printable 600 DPI A4 Calibration Target & BYOS architecture).
 
 ```
 mobile_capture/
