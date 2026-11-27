@@ -19,6 +19,15 @@ Otomatik çekim + sesli koç + `ExposurePolicy` (luma/ISO/exp). Meta: `hole_side
 | `playstore` | `org.chromatex.lab` | Yok (Play consumer) | `keystore.properties` veya `CHROMATEX_KEYSTORE_*` env |
 | `kiosk` | `org.chromatex.lab.kiosk` | Var (saha tableti) | `field` keystore |
 
+## Play Store Assets & Metadata
+
+Google Play Console için tüm görseller, veri güvenliği beyanları ve mağaza metinleri bu klasör altında ayrı tutulur (`v0.5.27`, `versionCode = 79`, `targetSdk = 36`, Android 15/16 Edge-to-Edge uyumlu):
+- Meta & Play Console beyanları: [store_assets/PLAY_STORE_METADATA.md](store_assets/PLAY_STORE_METADATA.md)
+- İkon (`512×512`) & Özellik Grafiği (`1024×500`): `store_assets/play-icon-512.png`, `store_assets/play-feature-graphic-1024x500.png`
+- Ekran görüntüleri (Telefon, 7" ve 10" Tablet): `store_assets/screenshots/`
+- İmza şablonu: [keystore.properties.example](keystore.properties.example) *(gerçek `keystore.properties` ve `*.jks` `.gitignore` ile korunur)*
+- Canlı Destek / Gizlilik URL'leri: `https://berkhangulerci-ux.github.io/chromatex-lab-mobile/` · `.../privacy-policy.html`
+
 ## Build
 
 ```powershell

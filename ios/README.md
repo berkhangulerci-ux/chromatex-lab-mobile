@@ -2,7 +2,16 @@
 
 Phone/tablet only (`client_type: ios`). Mirrors Android **capture flow**: session meta → camera → master JPEG + `record.json` → hub upload.
 
-Version **0.2.10** — Galeri küçük resim + dokununca açılır. Cihaz kalibrasyonu kalktı. Sekmeler sistem çubuğu. Sarı kare FOV’dan hesaplanır. Çift 90° skew rotasyonu ve 18-yama kart oran hatası giderildi; upload arka planda stream edilir; ATS yalnızca yerel ağa (`NSAllowsLocalNetworking`) izin verir.
+Version **0.2.11** (build `14`) — App Store uyumlu (`PrivacyInfo.xcprivacy`, `developmentRegion = tr`, `ShareLink` yerel dışa aktarma, uygulama içi Gizlilik Politikası, `AppIcon.png` alfa kanalsız RGB). Galeri küçük resim + dokununca açılır. Sarı kare FOV’dan hesaplanır; upload arka planda stream edilir; ATS yalnızca yerel ağa (`NSAllowsLocalNetworking`) izin verir.
+
+## App Store Assets & Metadata
+
+Apple App Store Connect için tüm görseller ve kopyala-yapıştır mağaza metinleri bu klasör altında ayrı tutulur:
+- Meta & inceleme notları: [store_assets/APP_STORE_METADATA.md](store_assets/APP_STORE_METADATA.md)
+- Ekran görüntüleri (`6.9"`, `6.7"`, `6.5"`, `6.1"`, `5.5"`): `store_assets/screenshots/`
+- Header (`3840×1646`), Search Results (`1920×1280`), Universal (`5244×2950`): `store_assets/promotional/`
+- App Store ikonu (`1024×1024` RGB): `store_assets/app-store-icon-1024.png`
+- Canlı Destek / Gizlilik URL'leri: `https://berkhangulerci-ux.github.io/chromatex-lab-mobile/` · `.../privacy-policy.html`
 
 ## Open
 
